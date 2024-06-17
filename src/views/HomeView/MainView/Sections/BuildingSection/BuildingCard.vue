@@ -57,6 +57,8 @@ export default Vue.extend({
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        flex-wrap: wrap;
+        gap: 0.5rem;
         &-title {
             &-name {
                 font-weight: bolder;
